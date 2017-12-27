@@ -1,0 +1,7 @@
+function foo($name)   //function that takes parameter name
+{
+  $temp=$name." ".rand(6,15);   //name and random generated number stored in the variable temp
+  return $temp;        //temp variable returned
+}
+
+echo foo("Rahul");   //print the return value by the function foo()
